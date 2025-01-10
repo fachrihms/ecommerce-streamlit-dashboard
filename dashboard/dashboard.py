@@ -6,9 +6,9 @@ from babel.numbers import format_currency
 import matplotlib.ticker as mticker
 sns.set(style='dark')
 
-revenue_df = pd.read_csv("most_revenue_analyzed.csv")
-payments_df = pd.read_csv("payments.csv")
-recent_df = pd.read_csv("recent_purchase_analyzed_df.csv")
+revenue_df = pd.read_csv("dashboard/most_revenue_analyzed.csv")
+payments_df = pd.read_csv("dashboard/payments.csv")
+recent_df = pd.read_csv("dashboard/recent_purchase_analyzed_df.csv")
 
 
 
