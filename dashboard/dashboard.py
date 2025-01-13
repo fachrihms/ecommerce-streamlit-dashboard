@@ -8,9 +8,9 @@ import matplotlib.ticker as mticker
 sns.set(style='dark')
 
 # Load data
-revenue_df = pd.read_csv("dashboard/most_revenue_analyzed.csv")
-payments_df = pd.read_csv("dashboard/payments.csv")
-recent_df = pd.read_csv("dashboard/recent_purchase_analyzed_df.csv")
+revenue_df = pd.read_csv("dashboard\\most_revenue_analyzed.csv")
+payments_df = pd.read_csv("dashboard\\payments.csv")
+recent_df = pd.read_csv("dashboard\\recent_purchase_analyzed_df.csv")
 
 # Header
 st.header('E-Commerce Public Dashboard')
